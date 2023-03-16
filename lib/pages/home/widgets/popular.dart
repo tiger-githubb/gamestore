@@ -14,6 +14,7 @@ class PopularGame extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 20),
           scrollDirection: Axis.horizontal,
           itemBuilder: ((context, index) => GestureDetector(
+              // ignore: avoid_print
               onTap: (() => print('tap')),
               child: Card(
                 elevation: 5,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gamestore/pages/home/widgets/newest.dart';
 import 'package:gamestore/pages/home/widgets/popular.dart';
 
 class CategorySection extends StatelessWidget {
@@ -30,7 +31,7 @@ class CategorySection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 500,
+      height: 900,
       decoration: const BoxDecoration(
         color: Color.fromARGB(255, 255, 255, 255),
         borderRadius: BorderRadius.only(
@@ -98,6 +99,7 @@ class CategorySection extends StatelessWidget {
               ),
             ),
           ),
+          NewestGame(),
         ],
       ),
     );
