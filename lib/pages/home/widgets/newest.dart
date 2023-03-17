@@ -99,7 +99,7 @@ class NewestGame extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(15),
                                 ),
                                 child: const Text(
-                                  'Install',
+                                  'Installer',
                                   style: TextStyle(
                                     color: Colors.white,
                                   ),

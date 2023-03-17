@@ -9,22 +9,32 @@ class CategorySection extends StatelessWidget {
     {
       'icon': Icons.track_changes_outlined,
       'color': const Color(0xFF605CF4),
-      'title': 'Arcabe'
+      'title': 'Arcade'
     },
     {
       'icon': Icons.sports_motorsports_outlined,
       'color': const Color(0xFFFC77A6),
-      'title': 'Racing'
+      'title': 'Course'
     },
     {
       'icon': Icons.casino_outlined,
       'color': const Color(0xFF4391FF),
-      'title': 'Strategy'
+      'title': 'Strategie'
+    },
+    {
+      'icon': Icons.auto_stories,
+      'color': const Color.fromARGB(255, 242, 113, 236),
+      'title': 'Educatif'
+    },
+    {
+      'icon': Icons.flash_on,
+      'color': const Color.fromARGB(255, 242, 113, 113),
+      'title': 'Action'
     },
     {
       'icon': Icons.sports_esports,
       'color': const Color(0xFF7182f2),
-      'title': 'More'
+      'title': 'Plus'
     },
   ];
 

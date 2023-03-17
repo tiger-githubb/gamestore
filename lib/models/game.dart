@@ -26,12 +26,12 @@ class Game {
       Game(
         'assets/images/ori1.jpg',
         'assets/images/ori_logo.png',
-        'Ori and The Blind Forest',
-        'Adventure',
+        'Ori et la forêt aveugle',
+        'Aventure',
         4.8,
         382,
         324,
-        "Ori is stranger to peril, but when a fateful flight puts the owlet ku in har'ms way.Ori is stranger to peril, but when a fateful flight puts the owlet ku in har'ms way.Ori is stranger to peril, but when a fateful flight puts the owlet ku in har'ms way.",
+        "Ori est étranger au péril, mais quand un vol fatidique met la chouette ku en danger.Ori est étranger au péril, mais quand un vol fatidique met la chouette ku en danger.Ori est étranger au péril, mais quand un vol fatidique met la chouette ku en danger. Ori est étranger au péril, mais quand un vol fatidique met la chouette ku en danger.Ori est étranger au péril, mais quand un vol fatidique met la chouette ku en danger.Ori est étranger au péril, mais quand un vol fatidique met la chouette ku en danger.",
         [
           'assets/images/ori2.jpg',
           'assets/images/ori3.jpg',
@@ -41,12 +41,12 @@ class Game {
       Game(
         'assets/images/rl1.jpg',
         'assets/images/rl_logo.png',
-        'Rayman Legends',
-        'Adventure',
+        'Légendes de Rayman',
+        'Aventure',
         4.7,
         226,
         148,
-        "Rayman is stranger to peril, but when a fateful flight puts the owlet ku in har'ms way.Ori is stranger to peril, but when a fateful flight puts the owlet ku in har'ms way.Ori is stranger to peril, but when a fateful flight puts the owlet ku in har'ms way.",
+        "Rayman est étranger au péril, mais lorsqu'un vol fatidique met la chouette ku en danger.Ori est étranger au péril, mais lorsqu'un vol fatidique met la chouette ku en danger.Ori est étranger au péril, mais quand un vol fatidique met la chouette ku en danger. Rayman est étranger au péril, mais lorsqu'un vol fatidique met la chouette ku en danger.Ori est étranger au péril, mais lorsqu'un vol fatidique met la chouette ku en danger.Ori est étranger au péril, mais quand un vol fatidique met la chouette ku en danger.",
         [
           'assets/images/rl2.jpg',
           'assets/images/rl3.jpg',

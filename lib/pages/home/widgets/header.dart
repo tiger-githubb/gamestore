@@ -6,10 +6,10 @@ class HeaderSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(
-        top: MediaQuery.of(context).padding.top,
+      padding: const EdgeInsets.only(
         left: 25,
         right: 25,
+        top: 50,
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -18,7 +18,7 @@ class HeaderSection extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: const [
               Text(
-                'Welcome,',
+                'Bienvenue,',
                 style: TextStyle(
                   fontSize: 22,
                   color: Colors.white,
@@ -29,7 +29,7 @@ class HeaderSection extends StatelessWidget {
                 height: 5,
               ),
               Text(
-                'What would you like to play?',
+                'Qu\'aimeriez-vous jouer?',
                 style: TextStyle(
                   fontSize: 19,
                   color: Colors.white,
