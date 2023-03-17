@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gamestore/models/game.dart';
-import 'package:gamestore/pages/detail/widgets/detail_sliver.dart';
-import 'package:gamestore/pages/detail/widgets/info.dart';
+import 'package:tigergamestore/models/game.dart';
+import 'package:tigergamestore/pages/detail/widgets/detail_sliver.dart';
+import 'package:tigergamestore/pages/detail/widgets/info.dart';
 
 class DetailPage extends StatelessWidget {
   const DetailPage(this.game, {super.key});

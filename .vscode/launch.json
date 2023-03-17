@@ -1,40 +1,52 @@
 {
-    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
-    // Pointez pour afficher la description des attributs existants.
-    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter (Pixel 4 API 30)",
+      "type": "dart",
+      "request": "launch",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Flutter: Attach to Device",
+      "type": "dart",
+      "request": "attach"
+    },
+    {
+      "name": "tigergamestore",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "tigergamestore (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "tigergamestore (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/HP/Desktop/Git clone/gamestore",
+      "program": "c:/Users/HP/Desktop/Git clone/gamestore/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
         {
-            "name": "Flutter (Pixel 4 API 30)",
-            "type": "dart",
-            "request": "launch",
-            "flutterMode": "debug",
-
-        },
-
-        {
-            "name": "Flutter: Attach to Device",
-            "type": "dart",
-            "request": "attach"
-        },
-
-        
-        {
-            "name": "gamestore",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "gamestore (profile mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
-            "name": "gamestore (release mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         }
-    ]
+      ]
+    }
+  ]
 }

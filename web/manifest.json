@@ -1,6 +1,6 @@
 {
-    "name": "gamestore",
-    "short_name": "gamestore",
+    "name": "tigergamestore",
+    "short_name": "tigergamestore",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

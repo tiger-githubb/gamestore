@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gamestore/models/game.dart';
+import 'package:tigergamestore/models/game.dart';
 
 class HeaderSection extends StatelessWidget {
   final Game game;

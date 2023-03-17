@@ -1,5 +1,6 @@
 class Game {
   String bgImage;
+  int id;
   String icon;
   String name;
   String type;
@@ -10,6 +11,7 @@ class Game {
   List<String> images;
 
   Game(
+    this.id,
     this.bgImage,
     this.icon,
     this.name,
@@ -24,6 +26,7 @@ class Game {
   static List<Game> games() {
     return [
       Game(
+        0,
         'assets/images/ori1.jpg',
         'assets/images/ori_logo.png',
         'Ori et la forêt aveugle',
@@ -39,6 +42,7 @@ class Game {
         ],
       ),
       Game(
+        1,
         'assets/images/rl1.jpg',
         'assets/images/rl_logo.png',
         'Légendes de Rayman',

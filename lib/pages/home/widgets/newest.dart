@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gamestore/models/game.dart';
+import 'package:tigergamestore/models/game.dart';
+import 'package:tigergamestore/pages/detail/detail.dart';
 
 class NewestGame extends StatelessWidget {
   NewestGame({super.key});
@@ -89,22 +90,27 @@ class NewestGame extends StatelessWidget {
                                 ],
                               ),
                               /**  Bouton Install*/
-                              Container(
-                                padding: const EdgeInsets.symmetric(
-                                  vertical: 5,
-                                  horizontal: 15,
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: game.id == 0
+                                      ? Colors.black
+                                      : Colors.amber,
                                 ),
-                                decoration: BoxDecoration(
-                                  color: const Color(0xFF5F67EA),
-                                  borderRadius: BorderRadius.circular(15),
-                                ),
+                                onPressed: () {
+                                  Navigator.of(context).push(
+                                    MaterialPageRoute(
+                                      builder: (context) =>
+                                          DetailPage(games[game.id]),
+                                    ),
+                                  );
+                                },
                                 child: const Text(
                                   'Installer',
                                   style: TextStyle(
                                     color: Colors.white,
                                   ),
                                 ),
-                              )
+                              ),
                             ],
                           )
                         ],

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gamestore/pages/home/widgets/newest.dart';
-import 'package:gamestore/pages/home/widgets/popular.dart';
+import 'package:tigergamestore/pages/home/widgets/newest.dart';
+import 'package:tigergamestore/pages/home/widgets/popular.dart';
 
 class CategorySection extends StatelessWidget {
   CategorySection({super.key});
@@ -36,6 +36,41 @@ class CategorySection extends StatelessWidget {
       'color': const Color(0xFF7182f2),
       'title': 'Plus'
     },
+    {
+      'icon': Icons.music_note_outlined,
+      'color': const Color(0xFFC27CFF),
+      'title': 'Musique'
+    },
+    {
+      'icon': Icons.movie_outlined,
+      'color': const Color(0xFFFFB74D),
+      'title': 'Cinéma'
+    },
+    {
+      'icon': Icons.pets_outlined,
+      'color': const Color(0xFF8BC34A),
+      'title': 'Animaux'
+    },
+    {
+      'icon': Icons.book_outlined,
+      'color': const Color(0xFF4FC3F7),
+      'title': 'Lecture'
+    },
+    {
+      'icon': Icons.brush_outlined,
+      'color': const Color(0xFFE57373),
+      'title': 'Art'
+    },
+    {
+      'icon': Icons.account_balance_outlined,
+      'color': const Color(0xFF4DB6AC),
+      'title': 'Finance'
+    },
+    {
+      'icon': Icons.airplanemode_active_outlined,
+      'color': const Color(0xFF9575CD),
+      'title': 'Voyages'
+    }
   ];
 
   @override

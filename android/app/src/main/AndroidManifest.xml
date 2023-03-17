@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gamestore">
+    package="com.example.tigergamestore">
    <application
-        android:label="gamestore"
+        android:label="tigergamestore"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
